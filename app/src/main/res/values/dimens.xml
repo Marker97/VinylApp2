@@ -1,3 +1,19 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="marginTop_logo">150dp</dimen>
+    <dimen name="logo">150dp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="textSize_myCollection">25sp</dimen>
+    <dimen name="myCollctionMargin">15dp</dimen>
+    <dimen name="layout_height">60dp</dimen>
+    <dimen name="padding_cardView">10dp</dimen>
+    <dimen name="img_card">100dp</dimen>
+    <dimen name="elevationImg_card">30dp</dimen>
+    <dimen name="MarginStart_card">-50dp</dimen>
+    <dimen name="elevation_card">20dp</dimen>
+    <dimen name="cornerCard">8dp</dimen>
+    <dimen name="marginStart_text">60dp</dimen>
+    <dimen name="sizeText_title">23sp</dimen>
+    <dimen name="sizeText_sub_title">18sp</dimen>
+    <dimen name="margin_cod_year_ep">180dp</dimen>
 </resources>

@@ -1,14 +1,19 @@
 <resources>
     <string name="app_name">VinylApp</string>
+    <string name="welcome">Welcome to VinylApp</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="first_fragment_label">Vinylapp</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="textView3">VinylApp is a personal vinyl collection app under development. You will be able to add and share your vinyls with other collectors around the world.</string>
+    <string name="textView3">VinylApp is a personal vinyl collection app under development. You will be able to add and share your vinyls with other collectors all over the world.
+</string>
+    <string name="next_button">Next</string>
+    <string name="show_button">Show Collection</string>
+    <string name="Vinilapp">vinylapp</string>
+    <string name="vinily_collection">My Collection</string>
+    <string name="epName">Name EP</string>
+    <string name="epArtist">Name Artist</string>
+    <string name="epCode">Cod.EP</string>
+    <string name="epYear">Year </string>
 
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

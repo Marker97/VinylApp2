@@ -28,8 +28,8 @@ class SecondFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonPrevious.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
+        binding.showBtn.setOnClickListener {
+            findNavController().navigate(R.id.action_SecondFragment_to_recyclerViewFragment)
         }
     }
 
