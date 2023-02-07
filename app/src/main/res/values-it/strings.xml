@@ -15,6 +15,13 @@
     <string name="epYear">Anno</string>
     <string name="epName">Nome EP</string>
     <string name="epArtist">Nome Artista</string>
+    <string name="overview">Descrizione:</string>
+    <string name="overview_info">Etichetta:	Pager Records – Pager009
+Formato: Vinile, 12"
+Paese: Germany
+Uscita:	15 apr 2019
+Genere:	Electronic
+Stile:	House, Deep House, UK Garage, Minimal</string>
 
 
 </resources>

@@ -15,5 +15,7 @@
     <string name="epArtist">Name Artist</string>
     <string name="epCode">Cod.EP</string>
     <string name="epYear">Year </string>
+    <string name="overview">Description:</string>
+    <string name="overview_info">inin</string>
 
 </resources>

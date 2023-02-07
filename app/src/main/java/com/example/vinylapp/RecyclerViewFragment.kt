@@ -22,9 +22,12 @@ class RecyclerViewFragment : Fragment() {
         _binding = RecyclerViewVinylBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
+
         recycler_vinyl.adapter = VinylAdapter(setData.setVinyl())
         recycler_vinyl.layoutManager = LinearLayoutManager(context)
 

@@ -16,4 +16,10 @@
     <dimen name="sizeText_title">18sp</dimen>
     <dimen name="sizeText_sub_title">15sp</dimen>
     <dimen name="margin_cod_year_ep">180dp</dimen>
+    <dimen name="marginTop_img_vinyl_detail">-50dp</dimen>
+    <dimen name="sizeText_artist_name_detail">18sp</dimen>
+    <dimen name="paddingTop_detail">50dp</dimen>
+    <dimen name="paddingBottom_detail">10dp</dimen>
+    <dimen name="marginTop_overview_detail">10dp</dimen>
+    <item name="scale" type="dimen" format="float">1.1</item>
 </resources>
