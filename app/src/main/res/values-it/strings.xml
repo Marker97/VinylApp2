@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VinylApp</string>
+    <string name="welcome">Benvenuto su VinylApp</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="first_fragment_label">Vinylapp</string>
+    <string name="next">Avanti</string>
+    <string name="previous">Indietro</string>
+    <string name="textView3">VinylApp è una app per la raccolta di vinili personale in fase di sviluppo. Potrai aggiungere e condividere i tuoi vinili con altri collezionisti in tutto il mondo.</string>
+    <string name="next_button">Avanti</string>
+    <string name="show_button">Indietro</string>
+    <string name="Vinilapp">vinylapp</string>
+    <string name="vinily_collection">My Collection</string>
+    <string name="epCode">Cod.EP</string>
+    <string name="epYear">Anno</string>
+    <string name="epName">Nome EP</string>
+    <string name="epArtist">Nome Artista</string>
+
+
+</resources>
