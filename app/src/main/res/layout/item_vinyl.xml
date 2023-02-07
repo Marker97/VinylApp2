@@ -14,7 +14,7 @@
         android:layout_width="@dimen/img_card"
         android:layout_height="@dimen/img_card"
         android:elevation="@dimen/elevationImg_card"
-        android:src="@drawable/ic_vinylapp" />
+        android:src="@drawable/ic_red_rooster" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
