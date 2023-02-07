@@ -13,7 +13,7 @@
     <dimen name="elevation_card">20dp</dimen>
     <dimen name="cornerCard">8dp</dimen>
     <dimen name="marginStart_text">60dp</dimen>
-    <dimen name="sizeText_title">23sp</dimen>
-    <dimen name="sizeText_sub_title">18sp</dimen>
+    <dimen name="sizeText_title">18sp</dimen>
+    <dimen name="sizeText_sub_title">15sp</dimen>
     <dimen name="margin_cod_year_ep">180dp</dimen>
 </resources>
