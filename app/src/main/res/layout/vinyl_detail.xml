@@ -11,31 +11,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:src="@drawable/ic_bg_vinyl_detail"
         android:scaleX="@dimen/scale"
         android:scaleY="@dimen/scale"
-        />
+        android:src="@drawable/ic_bg_vinyl_detail" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/marginTop_img_vinyl_detail"
         android:orientation="vertical">
+
         <ImageView
             android:id="@+id/vinyl_img_detail"
             android:layout_width="@dimen/img_card"
             android:layout_height="@dimen/img_card"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/ic_vinylapp"
-            android:elevation="@dimen/elevationImg_card"/>
+            android:elevation="@dimen/elevationImg_card"
+            android:src="@drawable/ic_vinylapp" />
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin"
-            android:layout_marginEnd="@dimen/margin"
             android:layout_marginTop="@dimen/marginTop_img_vinyl_detail"
+            android:layout_marginEnd="@dimen/margin"
             android:backgroundTint="@color/grey"
             app:cardCornerRadius="@dimen/cornerCard"
             app:cardElevation="@dimen/elevation_card">
+
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -51,23 +54,24 @@
                     android:text="@string/epName"
                     android:textColor="@color/white"
                     android:textSize="@dimen/sizeText_title"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/nameArtist_detail"
-                    android:layout_centerHorizontal="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/nameEp_detail"
+                    android:layout_centerHorizontal="true"
                     android:text="@string/epArtist"
-                    android:textStyle="bold"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/sizeText_artist_name_detail" />
+                    android:textSize="@dimen/sizeText_artist_name_detail"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/codeEp_detail"
-                    android:layout_below="@+id/nameArtist_detail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/nameArtist_detail"
                     android:layout_centerHorizontal="true"
                     android:text="@string/epCode"
                     android:textColor="@color/white"
@@ -87,53 +91,47 @@
             </RelativeLayout>
 
 
-
         </androidx.cardview.widget.CardView>
 
-
-
-        
-
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/margin"
-            >
+            android:layout_margin="@dimen/margin">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <TextView
                     android:id="@+id/overview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/overview"
-                    android:textStyle="bold"
                     android:textAllCaps="true"
-                    android:textSize="@dimen/sizeText_sub_title"
                     android:textColor="@color/white"
-                    />
+                    android:textSize="@dimen/sizeText_sub_title"
+                    android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/overview_info"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/overview"
                     android:text="@string/overview_info"
-                    android:textSize="@dimen/sizeText_sub_title"
                     android:textColor="@color/white"
-                    />
+                    android:textSize="@dimen/sizeText_sub_title" />
 
             </RelativeLayout>
 
-
         </ScrollView>
     </LinearLayout>
-
-
 
 
 </LinearLayout>

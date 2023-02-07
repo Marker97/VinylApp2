@@ -15,7 +15,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
+            android:background="@color/grey"
             app:popupTheme="@style/Theme.VinylApp.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>

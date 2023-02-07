@@ -27,10 +27,11 @@ class VinylAdapter(var vinyl: List<VinylData>) :
     }
 
     override fun onBindViewHolder(holder: vinylViewHolder, position: Int) {
-        //var vinylImage: Int? = null
+        var vinylImage: Int? = null
         holder.itemView.setOnClickListener{
             val intent = Intent(holder.itemView.context,VinylDetail::class.java)
             intent.putExtra("vinyl", vinyl[position])
+            intent.putExtra("vinylImage", vinylImage)
 
 
             holder.itemView.context.startActivity(intent)
@@ -41,30 +42,30 @@ class VinylAdapter(var vinyl: List<VinylData>) :
         holder.epYear.text = vinyl[position].epYear
         holder.epCode.text = vinyl[position].epCode
 
-       /* when (vinyl[position].epName!!) {
-            "Red Rooster EP - 12" -> {
+        when (vinyl[position].epName!!) {
+            "Red Rooster" -> {
                 vinylImage = R.drawable.ic_red_rooster
             }
-            "Who's Gonna Do it EP - 12" -> {
+            "Who's Gonna Do it" -> {
                 vinylImage = R.drawable.ic_whos_gonna_do_it
             }
-            "Fourplay EP - 12" -> {
+            "Fourplay" -> {
                 vinylImage = R.drawable.ic_fourplay
             }
-            "Metro Area EP - 3x12"-> {
+            "Metro Area"-> {
                 vinylImage = R.drawable.ic_metro_area
             }
-            "Knoe 5/3 EP - 12" -> {
+            "Knoe 5/3" -> {
                 vinylImage = R.drawable.ic_knoe_5_3
             }
-            "Beauty is Random EP - 12" -> {
+            "Beauty is Random" -> {
                 vinylImage = R.drawable.ic_beauty_is_random
             }
-            "Polypako EP -12"-> {
+            "Polypako"-> {
                 vinylImage = R.drawable.ic_polypako
             }
         }
-        holder.vinylImg.setImageResource(vinylImage!!)*/
+        vinylImage?.let { holder.vinylImg.setImageResource(it) }
     }
 
     override fun getItemCount(): Int {

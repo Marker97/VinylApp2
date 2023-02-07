@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.VinylApp" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/grey</item>
+        <item name="colorPrimary">#AAAAAA</item>
         <item name="colorPrimaryVariant">#313132</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

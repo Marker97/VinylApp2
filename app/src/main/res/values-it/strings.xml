@@ -6,22 +6,25 @@
     <string name="first_fragment_label">Vinylapp</string>
     <string name="next">Avanti</string>
     <string name="previous">Indietro</string>
-    <string name="textView3">VinylApp è una app per la raccolta di vinili personale in fase di sviluppo. Potrai aggiungere e condividere i tuoi vinili con altri collezionisti in tutto il mondo.</string>
+    <string name="textView3">
+        VinylApp è una app per la raccolta di vinili personale in fase di sviluppo.
+        Potrai aggiungere e condividere i tuoi vinili con altri collezionisti in tutto il mondo.
+    </string>
     <string name="next_button">Avanti</string>
-    <string name="show_button">Indietro</string>
-    <string name="Vinilapp">vinylapp</string>
-    <string name="vinily_collection">My Collection</string>
+    <string name="show_button">Mostra Collezione</string>
+    <string name="Vinilapp">Vinylapp</string>
+    <string name="vinily_collection">La mia collezione</string>
     <string name="epCode">Cod.EP</string>
     <string name="epYear">Anno</string>
     <string name="epName">Nome EP</string>
     <string name="epArtist">Nome Artista</string>
     <string name="overview">Descrizione:</string>
-    <string name="overview_info">Etichetta:	Pager Records – Pager009
-Formato: Vinile, 12"
-Paese: Germany
-Uscita:	15 apr 2019
-Genere:	Electronic
-Stile:	House, Deep House, UK Garage, Minimal</string>
-
-
+    <string name="overview_info">
+        Etichetta:	Pager Records – Pager009
+        Formato: Vinile, 12"
+        Paese: Germany
+        Uscita:	APR 2019
+        Genere:	Electronic
+        Stile:	House, Deep House, UK Garage, Minimal
+    </string>
 </resources>
