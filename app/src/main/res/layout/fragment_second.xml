@@ -5,8 +5,7 @@
     android:id="@+id/secondLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragment">
-
+    tools:context=".SecondFragment">
 
     <TextView
         android:id="@+id/textView2"
@@ -27,13 +26,15 @@
         android:layout_margin="@dimen/margin"
         android:layout_below="@+id/textView2"
         android:layout_centerInParent="true"
-        android:text="@string/textView3" />
+        android:text="@string/textView3"
+        android:textSize="16sp"/>
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="@dimen/logo"
-        android:layout_height="@dimen/logo"
-        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
         android:src="@drawable/ic_vinylapp" />
 
     <Button
@@ -42,7 +43,16 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView2"
         android:layout_centerInParent="true"
-        android:layout_marginTop="@dimen/marginTop_logo"
+        android:layout_marginTop="50dp"
         android:text="@string/show_button" />
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/add_button" />
 
 </RelativeLayout>

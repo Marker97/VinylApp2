@@ -27,4 +27,6 @@
         Genere:	Electronic
         Stile:	House, Deep House, UK Garage, Minimal
     </string>
+    <string name="add_button">Aggiungi vinile</string>
+    <string name="add_vinyl">Add Vinyl</string>
 </resources>

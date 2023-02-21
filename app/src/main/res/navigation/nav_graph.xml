@@ -26,6 +26,9 @@
         <action
             android:id="@+id/action_SecondFragment_to_recyclerViewFragment"
             app:destination="@id/recyclerViewFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_addVinyl"
+            app:destination="@id/addVinyl" />
     </fragment>
     <fragment
         android:id="@+id/recyclerViewFragment"
@@ -35,4 +38,8 @@
             android:id="@+id/action_recyclerViewFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/addVinyl"
+        android:name="com.example.vinylapp.AddVinyl"
+        android:label="AddVinyl" />
 </navigation>

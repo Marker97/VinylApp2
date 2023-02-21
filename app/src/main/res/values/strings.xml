@@ -17,5 +17,7 @@
     <string name="epYear">Year </string>
     <string name="overview">Description:</string>
     <string name="overview_info">inin</string>
+    <string name="add_button">Add new vinyl</string>
+    <string name="add_vinyl">Add Vinyl</string>
 
 </resources>
